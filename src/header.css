@@ -2,9 +2,13 @@
     display : flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem ;
+    padding: 0 6rem ;
     background-color: black;
     color: white;
+    position: sticky;
+    z-index: 100;
+    height: 4.3rem;
+    
 }
 .header-logo{
     display: flex;
@@ -37,21 +41,21 @@
   
 }
 .header-nav-signin{
-    padding: 0 2rem ;
+    padding: 0 1rem ;
     cursor: pointer;
 }
 .header-nav-signin h4{
     margin: 0;
 }
 .header-nav-your-shop{
-    padding: 0 2rem ;
+    padding: 0 1rem ;
     cursor: pointer;
 }
 .header-nav-your-shop h4{
     margin: 0;
 }
 .header-nav-cart{
-    padding: 0 2rem ;
+    padding: 0 1rem ;
     display: flex;
     align-items: center;
     cursor: pointer;
